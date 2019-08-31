@@ -1,0 +1,101 @@
+﻿입력 양식(from)
+입력 양식의 영역 지정
+<form [method="get/post"]
+	[action="backend-url"]
+	[enctype="multipart/form-data"]>
+</form>
+
+속성 설명 
+method: 입력값을 백엔드 페이지에게 전송하는 방식 
+action: 입력값을 전송받을 벡엔드 페이지를 주소
+enctype: 파일 업로드가 요구될 경우 명시
+화면 UI를 구성하는 과정에서는 중요하지 않기 때문에 method, enctype 속성은 명시하지 않는 경우가 많다
+
+입력양식 안에서의 그룹 지정(필요한 경우만 수행)
+<fieldset> <-- 그룹의 영역 지정
+<legend> 제목 </legend?> <-- 그룹의 제목을 표현
+....입력 항목들을 표현
+<fieldset>
+
+
+입력 항목
+기본
+<input type="종류" name="백엔드에서의 식별자" id="CSS, JS에서의 식별자"/>
+
+종류에 지정 가능한 값
+text, password, checkbox, radio, button, submit, reset, image, email, tel, url, number, range, search,
+date, time
+<input> 태그에 추가 가능한 속성
+value="기본값" 페이지가 열릴 때 입력되어 있는 값
+checked type속성이 radio, checkbox 인 경우 선택상태로 지정함
+min="최소값" type속성이 number, range 인 경우 사용
+max="최대값" type속성이 number, range 인 경우 사용
+step="숫자" type속성이 number, range 인 경우 사용
+maxlength="숫자" 키보드로 입력하는 형태에서 최대 글자수
+src="이미지경로" image형태인 경우만 사용
+required 필수 입력 항목 지정(모든 브라우저가 지원하는 것은 아님)
+
+그 밖의 요소
+장문 입력
+<textarea name="식별자" id="식별자" [maxlength="숫자"]>내용<textarea>
+
+드롭다운
+<select name="식별자" id="식별자" [multiple]>
+<option value="값" selected> 화면표시내용 </ option>
+</select>
+
+버튼 
+input태그에 대해서...
+type="button" 이 자체로는 아무 기능이 없음. 동작할 내용을 JS로 구현
+type="submit" 입력한 내용을 백엔드에 전송하는 기능(일반적인 저장버튼)
+type="reset" 입력한 내용을 모두 초기화
+type="image" submit과 기능이 동일 
+
+버튼 요소의 다른 형태
+<input type="button\submit\reset" value="click me" />
+위의 코드는 아래와 같이 변경 가능함
+<button type="button\submit\reset">Click me</button>
+<button>태그에서 사용 가능한 속성
+formmethod, formaction, formtarget 속성을 사용하여 <form>태그에 지정하던 method, action, target속성를 대
+
+css(stylesheet)
+HTML로 구성된 페이지 골격에 디자인을 입히는 언어
+서술방법
+(1)HTML문서에 의존한다
+<head>태그 안에 <style>태그를 명시하고 그 안에 서술한다
+<head>
+	<style [type="text/css"]>
+	....CSS구문
+	</style>
+<head>
+
+(2) CSS구문만을 별도로 저장한 외부파일을 참조
+<style>~<style>안에 명시하는 css구문을 별도의 파일에 작성해 두고 HTML에서 해당 파일의 경로를 참조한다
+<link rel="stylesheet" {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
