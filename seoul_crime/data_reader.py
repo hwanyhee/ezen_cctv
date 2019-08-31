@@ -34,7 +34,7 @@ class DataReader:
         file = self.new_file()
         return pd.read_excel(file, encoding='UTF-8', header=header, usecols=usecols)
 
-    def json_to_dframe(self, header, usecols) -> object:
+    def json_to_dframe(self) -> object:
         file = self.new_file()
         return json.load(open(file, encoding='UTF-8'))
 
@@ -43,4 +43,4 @@ class DataReader:
         #구글 손솔에서 제한사항 설정시
         #애프리케이션 제한사항은 없음을
         #api제한사항은 Geocoding/Geolocation/Maps Javascript API선택
-        return googlemaps.Client(key='')  # 구글지도 API키 넣기
+        return googlemaps.Client(key='AIzaSyCa1vZkdFPC0LGhwzMLXNYAti7DtoAiuv4')  # 구글지도 API키 넣기

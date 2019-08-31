@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9a995e3-dbf7-4277-a1b9-b99f62cd33ac" name="Default Changelist" comment="" />
+    <list default="true" id="e9a995e3-dbf7-4277-a1b9-b99f62cd33ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/crime_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/crime_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/data_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/data_reader.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +29,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/seoul_crime/saved_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seoul_crime/data" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\seoul_crime\saved_data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\seoul_crime\data" />
+      <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\seoul_crime\saved_data" />
       <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\seoul_crime" />
       <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\seoul_crime\data" />
+      <recent name="C:\Users\ezen\PycharmProjects\tensorflow190824-2\seoul_crime\saved_data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
