@@ -61,7 +61,7 @@ class CrimeMap:
             legend_name='CRIME RATE(%)'
 
         )
-
+        #컴거율을 원으로 지도에 표시하기:원이 클수록 검거율이 높다
         for i in police_pos.index:
             folium.CircleMarker([police_pos['lat'][i],police_pos['lng'][i]],radius=police_pos['검거'][i]*10,fill_color='#0a0a32').add_to(m)
         m.save('./saved_data/CRIME_SEOUL.html')
